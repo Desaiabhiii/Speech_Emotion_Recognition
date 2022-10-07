@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Neural_network.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+p{
+    font-family:'Lato' , sans-serif;
+    color: white;
+    font-size: 100px;
+}
+
+#p1{
+    margin-top: 15%;
+    text-align:center;
+}

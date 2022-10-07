@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Neural_network.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+p , h1  {
+    font-family:'Lato' , sans-serif;
+    color: white;
+}
+
+#container{
+    margin-left: 2rem;
+}
+
+#H1{
+    margin-top: 2rem;
+}
+
+#controls{
+    margin-top: 1rem;
+}
+
+#recordButton,#pauseButton,#stopButton{
+    background-color: #6600FF;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-align:center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#recordButton:hover,#pauseButton:hover,#stopButton:hover{
+    background-color: #8c00ff
+}
+
+#R1{
+    margin-top: 1rem;
+}

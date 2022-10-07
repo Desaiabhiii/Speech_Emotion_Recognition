@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(Neural_network.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#ai_chip{
+    width: 400px;
+    margin-left: 40% ;
+    display:block;
+    position: fixed;
+    text-shadow: 0 0 50px #6600FF,
+                0 0 100px #6600FF,
+                0 0 150px #6600FF,
+                0 0 200px #6600FF,
+                0 0 250px #6600FF;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+0%{
+filter: hue-rotate(0deg);
+}
+100%{
+    filter:hue-rotate(720deg)
+}
+}
+
+p , h1 , input {
+    font-family:'Lato' , sans-serif;
+    color: white;
+    margin-top: 10%;
+}
+
+
+.centerdiv{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,50%);
+    border:none;
+}
+
+#soundsIconTitle{
+    background-color:white;
+    color: white;
+    text-align:center;
+    border-radius: 150rem;
+    border:none;
+    padding: 30px 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1),
+                0px 0px 5px -1px rgba(255, 255, 255, 1);
+}
+
+#soundsIconTitle:hover{
+    background-color: #A9A9A9;
+}
+
+.popup{
+    position: absolute;
+    display:flex;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    justify-content:center;
+    margin-top: 1rem;
+    background-color: #4A4A4A;
+    transition:all 0.4s;
+    visibility:hidden;
+    opacity: 1;
+}
+
+.popup:target{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popcontaint{
+    position: relative;
+    background: #ccc4da;
+    height: 100px;
+    width: 150px;
+    padding: 1.5em 5em;
+    border-radius: 10px;
+}
+
+.modalclose{
+    position: absolute;
+    top:3%;
+    right: 3%;
+    color: #494949;
+    text-decoration: none;
+    font-size:  40px;
+}
+#choose_file{
+    background-color: #6600FF;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 20px;
+    text-align:center;
+}
+
+#submitButton{
+    background-color: #6600FF;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 50px;
+    margin-top: 50%;
+    text-align:center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#submitButton:hover{
+    background-color: #8c00ff
+}
+
+#transcript{
+    margin-top: 30px;
+}
+
+#classPredict{
+    position: relative;
+    border-radius: 10px;
+    margin-top: -11.5%;
+}
+
+#Predict{
+    background-color: #6600FF;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    padding: 10px 50px;
+
+    margin-left: 0%;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#Predict.hover{
+    background-color: #8c00ff;
+}
+
+
